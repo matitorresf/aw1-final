@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "city": "Curitiba - Brasil",
+        "price": 5000,
+        "desc": "Belgrano enfrentará a Atletico Paranaense por los octavos de final de la Copa Conmebol Sudamericana. <br> <br> Todos los viajes incluyen entrada.",
+        "img": "https://www.italgreen.es/computedimage/arena-1.i4157-kzKDl7v-w600-h399-l1-n1.jpeg",
+        "hotels": [
+            {
+                "id": 1,
+                "name": "Hotel 1",
+                "price": 1000
+            },
+            {
+                "id": 2,
+                "name": "Hotel 2",
+                "price": 2000
+            },
+            {
+                "id": 3,
+                "name": "Hotel 3",
+                "price": 3000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "city": "Manta - Ecuador",
+        "price": 4000,
+        "desc": "El pirata enfrentará al Delfín Sporting Club, equipo ecuatoriano originario de la ciudad de Manta. <br> <br> Todos los viajes incluyen entrada.",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/56OKALS2AFDA5OIFAPCPN5FLAQ.jpg",
+        "hotels": [
+            {
+                "id": 1,
+                "name": "Hotel 1",
+                "price": 1000
+            },
+            {
+                "id": 2,
+                "name": "Hotel 2",
+                "price": 2000
+            },
+            {
+                "id": 3,
+                "name": "Hotel 3",
+                "price": 3000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "city": "Porto Alegre - Brasil",
+        "price": 3000,
+        "desc": "Seguí al pirata en su enfrentamiento contra el Sport Club Internacional, conocido popularmente como Inter de Porto Alegre. <br> <br> Todos los viajes incluyen entrada.",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/0b/b9/7f/d4/foto-de-paulo-machado.jpg",
+        "hotels": [
+            {
+                "id": 1,
+                "name": "Hotel 1",
+                "price": 1000
+            },
+            {
+                "id": 2,
+                "name": "Hotel 2",
+                "price": 2000
+            },
+            {
+                "id": 3,
+                "name": "Hotel 3",
+                "price": 3000
+            }
+        ]
+    }
+]

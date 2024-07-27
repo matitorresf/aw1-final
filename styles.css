@@ -1,8 +1,10 @@
+/* Existing CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://www.belgranosocios.com/images/fondo_socios5.jpg') no-repeat fixed center top;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #6200ea;
+    background-color: #000000; /* Dark blue */
     color: white;
     padding: 1rem;
     width: 100%;
@@ -25,6 +27,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .cities-container {
@@ -45,7 +48,7 @@ main {
     margin: 1rem;
     overflow: hidden;
     width: 300px;
-    min-height: 600px; /* Ajusta este valor según sea necesario */
+    min-height: 600px;
     transition: transform 0.2s;
 }
 
@@ -56,35 +59,36 @@ main {
 .city-card img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
 }
 
 .city-info {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    flex: 1; /* Make it take available space */
+    flex: 1;
 }
 
 .city-info h2 {
     margin: 0;
     font-size: 1.5rem;
-    color: #333;
+    color: #000000;
 }
 
 .city-info p {
     font-size: 1rem;
-    color: #666;
+    color: #333; 
     margin: 0.5rem 0;
 }
 
 .price {
-    font-size: 1.2rem;
-    color: #6200ea;
-    margin-top: auto; /* Push to the bottom of .city-info */
+    font-size: 1.4rem;
+    color: #000000; 
+    margin-top: auto;
 }
 
 button {
-    background-color: #6200ea;
+    background-color: #00a3e0;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -94,5 +98,166 @@ button {
 }
 
 button:hover {
-    background-color: #3700b3;
+    background-color: #007bb5;
+}
+
+.resume-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem;
+}
+
+#purchase-details h2,
+#purchase-details p {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #333; /* Dark grey */
+}
+
+#user-info-form div {
+    margin-bottom: 1rem;
+}
+
+#user-info-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333; /* Dark grey */
+}
+
+#user-info-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+#user-info-form input:focus {
+    outline: none;
+    border-color: #00a3e0; /* Light blue */
+}
+
+#user-info-form button {
+    background-color: #00a3e0; /* Light blue */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 48%;
+    text-align: center;
+    margin: 0 1%;
+}
+
+#user-info-form button:hover {
+    background-color: #007bb5; /* Darker blue */
+}
+
+/* New CSS for the city details page */
+
+#city-details {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem;
+}
+
+#city-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+#city-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #004b87; /* Dark blue */
+}
+
+#city-details p {
+    font-size: 1rem;
+    color: #333; /* Dark grey */
+    margin-bottom: 1rem;
+}
+
+#city-details label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333; /* Dark grey */
+}
+
+#city-details select,
+#city-details input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+#city-details input:focus,
+#city-details select:focus {
+    outline: none;
+    border-color: #00a3e0; /* Light blue */
+}
+
+#total-price {
+    font-size: 1.2rem;
+    color: #00a3e0; /* Light blue */
+    margin: 1rem 0;
+}
+
+#city-details button {
+    background-color: #00a3e0; /* Light blue */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#city-details button:hover {
+    background-color: #007bb5; /* Darker blue */
+}
+
+#submit-container {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 1rem; /* Space between buttons */
+    margin-top: 1rem; /* Space above the button container */
+}
+
+/* Styles for the buttons */
+#submit-container button {
+    background-color: #00a3e0; /* Light blue */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    max-width: 150px; /* Maximum width for buttons */
+    text-align: center;
+}
+
+#submit-container button:hover {
+    background-color: #007bb5; /* Darker blue */
 }
