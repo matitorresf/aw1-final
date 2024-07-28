@@ -1,5 +1,3 @@
-/* Existing CSS */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
@@ -13,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #000000; /* Dark blue */
+    background-color: #000000; 
     color: white;
     padding: 1rem;
     width: 100%;
@@ -115,7 +113,7 @@ button:hover {
 #purchase-details p {
     margin: 0 0 1rem 0;
     font-size: 1rem;
-    color: #333; /* Dark grey */
+    color: #333; 
 }
 
 #user-info-form div {
@@ -126,7 +124,7 @@ button:hover {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #333; /* Dark grey */
+    color: #333;
 }
 
 #user-info-form input {
@@ -141,11 +139,11 @@ button:hover {
 
 #user-info-form input:focus {
     outline: none;
-    border-color: #00a3e0; /* Light blue */
+    border-color: #00a3e0;
 }
 
 #user-info-form button {
-    background-color: #00a3e0; /* Light blue */
+    background-color: #00a3e0; 
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -158,10 +156,8 @@ button:hover {
 }
 
 #user-info-form button:hover {
-    background-color: #007bb5; /* Darker blue */
+    background-color: #007bb5;
 }
-
-/* New CSS for the city details page */
 
 #city-details {
     background-color: white;
@@ -183,12 +179,12 @@ button:hover {
 #city-details h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #004b87; /* Dark blue */
+    color: #004b87;
 }
 
 #city-details p {
     font-size: 1rem;
-    color: #333; /* Dark grey */
+    color: #333; 
     margin-bottom: 1rem;
 }
 
@@ -196,7 +192,7 @@ button:hover {
     display: block;
     margin-top: 1rem;
     font-weight: bold;
-    color: #333; /* Dark grey */
+    color: #333; 
 }
 
 #city-details select,
@@ -213,17 +209,17 @@ button:hover {
 #city-details input:focus,
 #city-details select:focus {
     outline: none;
-    border-color: #00a3e0; /* Light blue */
+    border-color: #00a3e0; 
 }
 
 #total-price {
     font-size: 1.2rem;
-    color: #00a3e0; /* Light blue */
+    color: #00a3e0; 
     margin: 1rem 0;
 }
 
 #city-details button {
-    background-color: #00a3e0; /* Light blue */
+    background-color: #00a3e0; 
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -235,29 +231,29 @@ button:hover {
 }
 
 #city-details button:hover {
-    background-color: #007bb5; /* Darker blue */
+    background-color: #007bb5; 
 }
 
 #submit-container {
     display: flex;
-    justify-content: center; /* Centers the buttons horizontally */
-    gap: 1rem; /* Space between buttons */
-    margin-top: 1rem; /* Space above the button container */
+    justify-content: center; 
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
-/* Styles for the buttons */
+
 #submit-container button {
-    background-color: #00a3e0; /* Light blue */
+    background-color: #00a3e0; 
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
-    max-width: 150px; /* Maximum width for buttons */
+    max-width: 150px;
     text-align: center;
 }
 
 #submit-container button:hover {
-    background-color: #007bb5; /* Darker blue */
+    background-color: #007bb5;
 }
