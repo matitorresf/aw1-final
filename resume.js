@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function submitForm() {
-    // Handle form submission logic
     alert('Reservado con éxito!');
 }
 

@@ -30,7 +30,7 @@ function displayCityDetails(city) {
         </div>
         <div id="total-price">Precio Total: $${city.price}</div>
         <div>
-            <button id="calculate-btn">Reservar!</button>
+            <button id="calculate-btn">Reservar</button>
         </div>
     `;
 
