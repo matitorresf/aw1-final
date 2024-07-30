@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function submitForm() {
-    alert('Reservado con éxito!');
+    //alert('Reservado con éxito!');
 }
 
 function cancelForm() {

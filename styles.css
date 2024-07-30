@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -52,6 +53,7 @@ main {
 
 .city-card:hover {
     transform: scale(1.06);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 
 .city-card img {

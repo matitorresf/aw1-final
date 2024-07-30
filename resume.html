@@ -37,11 +37,22 @@
                 </div>
                 <div id="submit-container">
                     <button type="button" onclick="cancelForm()">Cancelar</button>
-                    <button type="button" onclick="submitForm()">Reservar</button>
+                    <button type="button" id="confeti" onclick="submitForm()">Reservar</button>
                 </div>
             </div>
         </div>
     </main>
+    <script src="confetti.min.js"></script>
+    <script>
+        let confetti = new Confetti("confeti");
+
+        // Edit given parameters
+        confetti.setCount(75);
+        confetti.setSize(1);
+        confetti.setPower(25);
+        confetti.setFade(false);
+        confetti.destroyTarget(false);
+      </script>
     <script src="resume.js"></script>
 </body>
 </html>
